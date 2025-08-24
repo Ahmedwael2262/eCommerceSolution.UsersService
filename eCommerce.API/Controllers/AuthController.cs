@@ -17,7 +17,7 @@ namespace eCommerce.API.Controllers
     }
 
     //Endpoint for user registration use case
-    [HttpPost("register  ")] //POST api/auth/register
+    [HttpPost("register")] //POST api/auth/register
     public async Task<IActionResult> Register(RegisterRequest registerRequest)
     {
       //Check for invalid registerRequest
